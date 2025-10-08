@@ -9,11 +9,12 @@ int main() {
     
     cout << "Как double: " << num << endl;
     
-    int intNumber = static_cast<int>(num);
-    cout << "Как int: " << intNumber << endl;
+    int intNum = static_cast<int>(num);
+    cout << "Как int: " << intNum << endl;
     
-    bool boolNumber = static_cast<bool>(num);
-    cout << "Число не равно 0? " << boolalpha << boolNumber << endl;
+    bool boolNum = static_cast<bool>(num);
+    cout << "Число не равно 0? " << boolalpha << boolNum << endl;
     
     return 0;
+
 }
